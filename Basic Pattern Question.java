@@ -13,6 +13,8 @@ public class Pattern_Questions {
             System.out.println();
         }
         System.out.println("2nd problem:");
+
+        
         //print 4*5 metrics with * and gap betwin the box inside
         //outer loop
         for (int i = 1; i <= 4; i++) {
@@ -29,6 +31,7 @@ public class Pattern_Questions {
         }
 
         System.out.println("problem 3:");
+
         //print the pattern rectangle on left side
         for (int i = 1; i <= 4; i++) { //i=4;i>=1 i-- make changes in reverse of traingle upper to lower
             for (int j = 1; j <= i; j++) {
@@ -64,7 +67,6 @@ public class Pattern_Questions {
 
 
         //print the pattern of numbers Floyd's Triangle
-
         int x= 5; //row numbers
         int num = 1;
         //outer loop
@@ -80,7 +82,6 @@ public class Pattern_Questions {
         System.out.println("prolem 6:");
 
         //print 0-1 Triangle
-
         int x1= 5; //rows number and column 5*5
         for(int i=1;i<=x1;i++){
             for(int j=1;j<=i ;j++){
