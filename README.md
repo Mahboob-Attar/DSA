@@ -78,11 +78,16 @@
 
 
 
+
 🚀 Why This Matters
 
 Mastering DSA helps in:
+
 1.Writing efficient, optimized code
+
 2.Cracking coding interviews at top tech companies
+
 3.Understanding underlying logic of frameworks and systems
+
 4.Competitive programming and real-world problem solving
 
