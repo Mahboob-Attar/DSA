@@ -1,4 +1,4 @@
-📘 Data Structures & Algorithms (DSA) – Basic to Advanced Overview
+# 📘 Data Structures & Algorithms (DSA) – Basic to Advanced Overview
 🟢 Beginner Level (Basic Concepts)
 📂 Data Structures:
 1.Arrays – Fixed-size, indexed data structure.
