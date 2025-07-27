@@ -71,11 +71,10 @@ public class Strings {
         System.out.println(str.charAt(2));
 
         //variables are mutable
-        int a=10;     //if we want to declare a finale variable not use anyome use kyword final
-        a=50;
+        int a=10;     //if we want to declare a finale variable 
         System.out.println(a);
 
-        final int b=15; //b we cant declare anymore in this program
+        final int b=15; //b we cant declare anymore literals to this variable in this program
         System.out.println(b);
 
 
