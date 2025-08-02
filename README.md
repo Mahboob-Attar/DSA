@@ -1,93 +1,68 @@
-# 📘 Data Structures & Algorithms (DSA) – Basic to Advanced Overview
-
-🟢 Beginner Level (Basic Concepts)
+# 📘 Recommended DSA Learning Order (Beginner-Friendly):
 
 
-📂 Data Structures:
+✅ 1. Arrays & Strings
 
-1.Arrays – Fixed-size, indexed data structure.
+Basics, Traversal, Searching, Sorting
 
-2.Strings – Sequence of characters, often treated like arrays.
+2-pointer problems
 
-3.Linked List – Nodes connected via pointers (Singly, Doubly).
+Sliding window (for slightly advanced prep)
 
-4.Stack – Last In First Out (LIFO).
+Subarrays, Prefix sum
 
-5.Queue – First In First Out (FIFO).
-
-6.HashMap / Dictionary – Key-value pair storage for fast access.
-
-⚙️ Algorithms:
-
-1.Searching – Linear Search, Binary Search.
-
-2.Sorting – Bubble Sort, Selection Sort, Insertion Sort.
-
-3.Recursion – Function calling itself with base and recursive cases.
-
-4.Basic Math – Prime numbers, GCD/LCM, Modular arithmetic.
-
-🟡 Intermediate Level
+Time/space complexity
 
 
-📂 Data Structures:
+✅ 2. Recursion
 
-1.Trees – Binary Tree, Binary Search Tree (BST).
+Print numbers, factorial, sum of array
 
-2.Heaps – Max-Heap, Min-Heap for priority operations.
+Backtracking base cases
 
-3.HashSet / HashMap – Collision handling, hashing logic.
+Patterns like:
 
-4.Two Pointers / Sliding Window – Optimized array/string problems.
+Subset generation
 
-⚙️ Algorithms:
+Permutations
 
-1.Merge Sort / Quick Sort – Efficient divide-and-conquer sorting.
+Palindrome partitioning
 
-2.Backtracking – Sudoku solver, N-Queens problem.
-
-3.Prefix Sum / Difference Array – Efficient range operations.
-
-4.Bit Manipulation – XOR tricks, bit masking, counting bits.
+Then move to memoization (part of Dynamic Programming)
 
 
-🔴 Advanced Level
+✅ 3. Linked List
+
+Basics, insertion, reversal
+
+Detect loop, merge two lists, middle node
 
 
-📂 Data Structures:
+✅ 4. Stacks and Queues
 
-1.Graphs – Adjacency List/Matrix, Directed/Undirected, Weighted.
+Stack using arrays or linked list
 
-2.Tries – Efficient string/prefix storage.
+Balanced parentheses
 
-3.Segment Tree / Fenwick Tree (BIT) – Range queries and updates.
+Next greater/smaller element
 
-4.Disjoint Set (Union-Find) – Cycle detection, Kruskal’s algorithm.
-
-⚙️ Algorithms:
-
-1.Dynamic Programming (DP) – Memoization, Tabulation, DP on Trees.
-
-2.Greedy Algorithms – Huffman coding, Activity selection.
-
-3.Graph Algorithms – BFS, DFS, Dijkstra, Bellman-Ford, Floyd-Warshall.
-
-4.Advanced Recursion – DP with backtracking, combinatorics problems.
-
-5.Topological Sort / SCC – DAG problems, Kosaraju’s algorithm.
+Sliding window maximum
 
 
+✅ 5. Trees & Graphs
+
+Binary Tree DFS, BFS
+
+Tree recursion
+
+Graph traversal: DFS, BFS
 
 
-🚀 Why This Matters
+✅ 6. Dynamic Programming (after recursion is clear)
 
-Mastering DSA helps in:
+Fibonacci with memo
 
-1.Writing efficient, optimized code
+Knapsack, LCS
 
-2.Cracking coding interviews at top tech companies
-
-3.Understanding underlying logic of frameworks and systems
-
-4.Competitive programming and real-world problem solving
+Grid-based DP
 
