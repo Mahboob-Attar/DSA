@@ -2,27 +2,18 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinarySearchArrays {
-    public static int searchBinary(int [] arr,int target) {
+    public static int searchBinary(int [] arr1,int target) {
         int low = 0;
-        int high = arr.length - 1;
-        boolean isAssending = arr[0] <= arr[arr.length-1];
+        int high = arr1.length - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (arr[mid] == target) {
+            if (arr1[mid] == target) {
                 return mid;
-            }if(isAssending){
-                if (arr[mid] < target) {
-                    low = mid + 1;
-                }else {
-                    high = mid - 1;
-                }
-            }else{
-                    if(arr[mid]>target){
-                        low = mid+1;
-                    }else{
-                        high= mid-1;
-                    }
-                }
+            } else if (arr1[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
         }
         return -1;
     }
@@ -35,7 +26,7 @@ public class BinarySearchArrays {
         for(int i=0;i<n; i++){
             arr[i] = sc.nextInt();
         }
-       // Arrays.sort(arr); this only sort asc if u want desc must use INTEGER[] with collection.reverse()
+        Arrays.sort(arr);
         System.out.println("enter target value");
         int target = sc.nextInt();
         int idx = searchBinary(arr,target);
