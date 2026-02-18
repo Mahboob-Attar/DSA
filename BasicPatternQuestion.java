@@ -14,7 +14,6 @@ public class Pattern_Questions {
         }
         System.out.println("2nd problem:");
 
-        
         //print 4*5 metrics with * and gap betwin the box inside
         //outer loop
         for (int i = 1; i <= 4; i++) {
@@ -65,7 +64,6 @@ public class Pattern_Questions {
   }
         System.out.println("problem 6:");
 
-
         //print the pattern of numbers Floyd's Triangle
         int x= 5; //row numbers
         int num = 1;
@@ -97,3 +95,4 @@ public class Pattern_Questions {
 
     }
 }
+
