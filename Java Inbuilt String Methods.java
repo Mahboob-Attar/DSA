@@ -13,7 +13,6 @@ public class Strings {
                 str.insert(3,"e");
         System.out.println(str);*/
 
-
         //lower case and lower case
         String upcase = Name.toUpperCase();
         System.out.println(upcase);
@@ -77,6 +76,6 @@ public class Strings {
         final int b=15; //b we cant declare anymore literals to this variable in this program
         System.out.println(b);
 
-
     }
 }
+
